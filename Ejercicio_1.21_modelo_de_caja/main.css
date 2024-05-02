@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+div{background-color: aqua;}
+.box{
+    height: 100px;
+    width: 100px;
+    border: solid 3px black;
+    display: inline-block;
+}
+
+.foto1{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.foto2{
+    width: 100px;
+    height: 100px;
+}
+.container{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 5px;
+    box-sizing: border-box;
+}
