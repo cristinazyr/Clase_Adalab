@@ -1,0 +1,16 @@
+header{
+    background-color: aquamarine;
+    
+}
+body{
+    border: solid 2px purple;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: bisque;}
+footer{
+    background-color: blue;
+    margin-top: auto;
+}
+
+/* Flex, grow, shrink y basis???*/
