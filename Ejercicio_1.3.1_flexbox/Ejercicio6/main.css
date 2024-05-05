@@ -5,6 +5,7 @@
 }
 body{
     max-width: 960px;
+    text-align: center;
 }
 header{
     background-color: aqua;
