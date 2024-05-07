@@ -1,3 +1,99 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
-  background-color: lightblue;
+  background-color: rgb(226, 245, 209);
+}
+h1{
+  font-size: larger;
+}
+.caja{
+  border: solid 2px gray;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  
+}
+a{
+  text-decoration: none;
+  
+}
+.caja_principal{
+  display: flex;
+  gap: 10px;
+  width: 60%;
+}
+.parte1{
+  color: rgb(168, 158, 158);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+ .caja_clic{
+  display: flex;
+  gap: 10px;
+  
+  
+ }
+ .caja_clic1{
+  background-color: rgb(172, 175, 172);
+  width: 180px;
+  height: 30px;
+  border-radius: 6px;
+  text-align: center;
+  
+ }
+ .caja_clic2{
+ border: solid 2px rgb(172, 175, 172) ;
+  width: 180px;
+  height: 30px;
+  border-radius: 6px;
+  text-align: center;
+
+
+ }
+.clic1{
+ 
+  color: white;
+  
+}
+.clic2{
+ 
+ 
+  color: rgb(172, 175, 172);
+
+}
+}
+.foto1{
+  width: 100px;
+  height: 80px;
+  
+}
+.parte2{
+  display: flex;
+
+}
+.valoraciones{
+  color: rgb(19, 18, 18);
+  font-weight: 700;
+}
+.comentarios{
+  color:  rgb(172, 175, 172) ;
+
+}
+.caja_valor{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.valor{
+  background-color: aliceblue;
+  width: 50px;
+  height: 50px;
+  text-align: center;
 }
