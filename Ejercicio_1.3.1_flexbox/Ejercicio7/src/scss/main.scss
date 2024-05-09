@@ -17,6 +17,7 @@ h1{
   display: flex;
   justify-content: space-between;
   list-style-type: none;
+  max-width: 840px;
   
 }
 a{
@@ -46,6 +47,9 @@ a{
   height: 30px;
   border-radius: 6px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
  }
  .caja_clic2{
@@ -54,6 +58,10 @@ a{
   height: 30px;
   border-radius: 6px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 
 
  }
@@ -90,10 +98,17 @@ a{
   display: flex;
   flex-direction: column;
   text-align: center;
+  
+
 }
 .valor{
   background-color: aliceblue;
   width: 50px;
   height: 50px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  
 }
