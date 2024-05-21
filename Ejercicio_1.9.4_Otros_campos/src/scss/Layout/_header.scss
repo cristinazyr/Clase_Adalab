@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+        font-family: "Satisfy";
+        font-weight: 800;
+        font-style: normal;
+        font-size: 2.5rem;  
+        margin: 25px;
+}
+.header_text{
+    color: var(--color_texts);
+    font-size: 20px;
+    font-weight: 600;
+    margin-inline: 20px;
+    padding-inline: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.line{
+    display: flex;
+}
+.botton_to_facebook{
+    border: 2px solid var(--color_facebook);
+    background-color: var(--color_facebook);
+    width: 70%;
+    height: 30px;
+    margin-bottom: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+}
