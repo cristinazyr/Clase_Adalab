@@ -15,11 +15,14 @@
 .header_text{
     color: var(--color_texts);
     font-size: 20px;
-    font-weight: 600;
     margin-inline: 20px;
     padding-inline: 20px;
     text-align: center;
     margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+      
 }
 .line{
     display: flex;
@@ -28,7 +31,7 @@
     border: 2px solid var(--color_facebook);
     background-color: var(--color_facebook);
     width: 70%;
-    height: 30px;
+    height: 40px;
     margin-bottom: 30px;
     color: white;
     display: flex;
@@ -36,4 +39,9 @@
     align-items: center;
     gap: 10px;
     border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
