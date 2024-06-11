@@ -1,0 +1,77 @@
+:root {
+  font-family: 'Noto Serif', serif;
+  font-weight: bold;
+
+  --correct-yellow: #ffcc00;
+  --chilean-fire-orange: #ff9900;
+  --blue-button: #0660C6;
+  --blue-top-button: #61a8fa;
+  --white-top: #F6F6F4;
+  --white-bottom: #E3E3DD;
+
+  --font-size-button: 26px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.yellow {
+  background-color: var(--correct-yellow);
+}
+
+.orange {
+  background-color: var(--chilean-fire-orange);
+}
+
+.header {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10vh;
+}
+
+.main {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+}
+
+.form {
+  height: 33vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.form__face {
+  display: block;
+  width: 6em;
+  padding: .4em 1em;
+  font-size: var(--font-size-button);
+  font-weight: bold;
+  border-radius: 3px;
+  background: linear-gradient(0deg, var(--white-bottom) 0%, var(--white-top) 100%);
+  box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.76);
+  border: 0;
+  border-radius: .3em;
+}
+
+.form__button {
+  display: block;
+  width: 6em;
+  padding: .3em .9em;
+  font-size: var(--font-size-button);
+  font-weight: bold;
+  color: white;
+  background-color: var(--blue-button);
+  background: linear-gradient(0deg, var(--blue-button) 0%, var(--blue-top-button) 100%);
+  box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.76);
+  border: 0;
+  border-radius: .3em;
+}
